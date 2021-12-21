@@ -74,7 +74,8 @@
 .home-hero-status {
   padding-top: 130px;
 }
-.home-hero-status .btn-explore {
+
+.btn-explore, .btn-learning {
   margin-top: 130px;
   padding: 15px 80px;
   border-radius: 50px;
@@ -86,11 +87,71 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.home-hero-status .btn-explore:hover {
+.btn-explore:hover, .btn-learning:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
   -webkit-box-shadow: inset 0 9px 21px rgba(19, 183, 166, 0.1), 0 0 2px rgba(60, 196, 180, 0.6);
           box-shadow: inset 0 9px 21px rgba(19, 183, 166, 0.1), 0 0 2px rgba(60, 196, 180, 0.6);
   border-left-color: #02febb;
   border-right-color: #02febb;
+  color: white;
+}
+
+.home-learning-path {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(21.49%, #9fffc7), color-stop(30.01%, #76e1bf), color-stop(49.1%, #0d96aa), color-stop(51.48%, #008ca7), color-stop(63.63%, #02627b), color-stop(80.31%, #052e45), color-stop(92.81%, #070d24), color-stop(99.6%, #080117));
+  background: linear-gradient(0deg, #9fffc7 21.49%, #76e1bf 30.01%, #0d96aa 49.1%, #008ca7 51.48%, #02627b 63.63%, #052e45 80.31%, #070d24 92.81%, #080117 99.6%);
+  height: 100vh;
+  position: relative;
+}
+.home-learning-path .learning-path-img-1, .home-learning-path .learning-path-img-2 {
+  position: absolute;
+  bottom: 0;
+}
+.home-learning-path .learning-path-img-1 {
+  z-index: 1;
+}
+.home-learning-path .learning-path-status {
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.btn-learning {
+  margin-top: 0px;
+}
+
+.stay-sharp {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(3.85%, #b5ffda), color-stop(13.14%, #8ce5ce), color-stop(33.95%, #23a4b1), color-stop(40.76%, #008ea7), color-stop(43.73%, #0087a0), color-stop(69.85%, #00516a), color-stop(89.38%, #003049), to(#00233c));
+  background: linear-gradient(0deg, #b5ffda 3.85%, #8ce5ce 13.14%, #23a4b1 33.95%, #008ea7 40.76%, #0087a0 43.73%, #00516a 69.85%, #003049 89.38%, #00233c);
+  min-height: 80vh;
+  position: relative;
+  z-index: 2;
+  margin-top: -1px;
+}
+
+.stay-img-2, .stay-img-1, .community-img-1, .community-img-2 {
+  position: absolute;
+  bottom: 0;
+}
+
+.stay-img-1, .community-img-2 {
+  z-index: 1;
+}
+
+.stay-sharp-status {
+  z-index: 3;
+}
+
+.community {
+  background: linear-gradient(1turn, #b5ffda 11.34%, #8ce5ce 20.89%, #23a4b1 42.29%, #008ea7 49.28%, #006c85 58.91%, #004c65 69.86%, #00354e 80.47%, #002841 90.49%, #00233c 99.31%);
+  min-height: 85vh;
+  background-attachment: scroll;
+  position: relative;
+  z-index: 2;
+}
+.community .community-img-1 {
+  bottom: -15px;
+}
+.community .community-status {
+  z-index: 3;
+  margin-top: 70px;
 }
