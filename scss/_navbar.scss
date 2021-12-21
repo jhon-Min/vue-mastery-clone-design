@@ -1,0 +1,35 @@
+.custom-nav{
+  position: absolute;
+
+    .navbar-brand{
+        margin-right: 70px !important;
+        width: 20%;
+    }
+
+    .nav-list{
+        li a{
+           color: white !important;
+           font-size: 20px;
+           margin: 0 10px
+        }
+    }
+}
+
+.nav-list li a {
+  position: relative;
+}
+
+.nav-list li a:before {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background: $bg-special;
+  position: absolute;
+  transition: .5s;
+  top: 100%;
+  left: 1;
+}
+
+.nav-list li:hover a:before {
+  width: 80%;
+}
