@@ -41,8 +41,8 @@
     // border-color: #028ebb;
     // border-top: 2px solid rgba(3,143,188,.16);
     // border-bottom: 2px solid rgba(46,162,200,.29);
-    border-left:2px solid rgb(2, 142, 187);
-    border-right:2px solid rgb(2, 142, 187);
+    border-left:3px solid rgb(2, 142, 187);
+    border-right:3px solid rgb(2, 142, 187);
     color: white;
     font-size: 19px;
     transition: .5s;
@@ -121,4 +121,134 @@
     }
 }
 
+// ============ Cheat Sheet ==============
+// .cheat{
+//     background: linear-gradient(1turn,#b5ffda -3.63%,#8ce5ce 6.41%,#23a4b1 28.9%,#008ea7 36.25%,#0087a0 39.46%,#00516a 67.67%,#003049 88.78%,#00233c 100.25%) fixed;
+//     min-height: 80vh;
+//     position: relative;
+//     z-index: 2;
+//     margin-top: -7px;
 
+//     .cheat-img-1, .cheat-img-4, .cheat-img-3{
+//         position: absolute;
+//     }
+
+//     .cheat-img-3{
+//         max-width: 32%;
+//         bottom: 0;
+//     }
+
+//     .cheat-img-4{
+//         z-index: 1;
+//         bottom: -370px;
+//     }
+
+//     .cheat-img-2{
+//         width: 45%;
+//         position: absolute;
+//         bottom: 15%;
+//     }
+// }
+
+// ============ Pro Section ==============
+.pro-section{
+    background-image: url('../img/hero/bg.svg');
+    min-height: 490vh;
+    background-position: auto;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+
+    .learn-expert{
+        padding-top: 150px;
+
+        .learn-expert-img-1{
+            max-width: 60%;
+        }
+    }
+
+    .teachers{
+        margin-top: 150px;
+
+        .teacher-status{
+            margin-top: 120px;
+
+            .teacher-1, .teacher-2{
+                width: 30%;
+                border: 2px solid white;
+                border-radius: 50%;
+                position: relative;
+            }
+
+            .first{
+                width: 23%;
+                left: 110px;
+                bottom: -25px;
+                position: absolute;
+            }
+
+            .center-img{
+                width: 23%;
+                right: 115px;
+                bottom: -25px;
+                position: absolute;
+            }
+
+            .last-img{
+                width: 23%;
+                position: absolute;
+                right: 118px;
+                top: -30px;
+            }
+        }
+    }
+
+    .contributors{
+        margin: 100px 0px;
+
+        .contri-status{
+            margin-top: 100px;
+
+            .contri-img{
+                width: 38%;
+                border: 2px solid white;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .pro-tips{
+        position: relative;
+
+        .tips-img-1{
+            position: absolute;
+            bottom: -250px;
+            width: 50%;
+        }
+    }
+}
+
+// ============ Footer ==============
+.footer{
+    background-image: url('../img/hero/footer.svg');
+    min-height: 100vh;
+    background-size: cover;
+    margin-top: -35px;
+    position: relative;
+    z-index: 5;
+    padding-top: 170px;
+    padding-bottom: 10px;
+
+    .footer-text{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .footer-list{
+        li{
+            color: white;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+    }
+}
